@@ -1,6 +1,7 @@
 $('.photos a').on('click', function(){
 
-    console.log($(this).html() )
+    var currentImage = $(this).html()
+    $('.modal-content').html(currentImage)
     $('.modal').fadeIn(500)
     return false
 })
