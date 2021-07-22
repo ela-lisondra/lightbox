@@ -65,3 +65,7 @@ a.clicked {
   max-width: 760px;
   transform: translate(-50%, -50%);
 }
+
+.modal {
+  display: none;
+}
